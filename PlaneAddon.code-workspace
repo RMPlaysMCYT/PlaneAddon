@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "bedrocken.projectPrefix": "ronmdwe",
+    "bedrocken.export.fileType": "mcpack/mcaddon",
+    "bedrocken.jsonAutocomplete": true,
+    "bedrocken.langAutocomplete": true
+  }
+}

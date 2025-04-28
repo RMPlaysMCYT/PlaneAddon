@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "planeronnel:hydra_plane",
+			"materials": {
+				"default": "entity_alphablend"
+			},
+			"textures": {
+				"default": "textures/entity/hydra"
+			},
+			"geometry": {
+				"default": "geometry.plane_hydra"
+			},
+			"render_controllers": [
+				"controller.render.single_plane"
+			],
+			"animations": {
+				"gliding": "animation.plane_hydra.gliding",
+				"landing": "animation.plane_hydra.landing",
+				"turn": "animation.plane_hydra.turn",
+				"general_ac": "controller.animation.plane_hydra.flying_ac",
+				"turn_ac": "controller.animation.plane_hydra.turn_ac"
+			},
+			"scripts": {
+				"animate": [
+					"general_ac",
+					"turn_ac"
+				]
+			},
+			"spawn_egg": {
+				"texture": "hydra_plane",
+				"texture_index": 0
+			}
+		}
+	}
+}

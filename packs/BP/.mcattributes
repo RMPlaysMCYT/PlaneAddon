@@ -1,0 +1,5 @@
+diagnostic.disable.minecraft.tag.missing=true
+diagnostic.disable.behaviorpack.entity.component_group.missing=true
+diagnostic.disable.521=true
+diagnostic.disable.minecraft.commands.execute.deprecated=true
+diagnostic.disable.521=true

@@ -1,0 +1,277 @@
+{
+  "format_version": "1.14.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "planeronnel:plane",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "is_experimental": false,
+      "scripts": {
+        "animate": [
+          {
+            "fly": "(1.0)"
+          }
+        ]
+      },
+      "animations": {
+        "fly": "controller.animation.plane.fly_v2"
+      }
+    },
+    "component_groups": {
+      "minecraft:startupex": {
+        "minecraft:rideable": {
+          "seat_count": 4,
+          "family_types": ["player"],
+          "seats": [
+            {
+              "position": [0, 0.6, 0.85]
+            },
+            {
+              "position": [0, 0.6, -0.1]
+            },
+            {
+              "position": [0, 0.6, -0.95]
+            },
+            {
+              "position": [0, 0.6, -1.7]
+            }
+          ],
+          "interact_text": "Hop in",
+          "rider_can_interact": true,
+          "controlling_seat": 0,
+          "pull_in_entities": false
+        }
+      },
+      "movement_0": {
+        "minecraft:movement.basic": {},
+        "minecraft:movement": {
+          "value": 1,
+          "max": 1
+        },
+        "minecraft:spell_effects": {
+          "remove_effects": ["slowness", "speed", "levitation", "slow_falling"],
+          "add_effects": [
+            {
+              "effect": "slow_falling",
+              "duration": 30,
+              "amplifier": 1,
+              "visible": false
+            }
+          ]
+        }
+      },
+      "movement_1": {
+        "minecraft:movement.glide": {
+          "start_speed": 1.0,
+          "speed_when_turning": 1.0
+        },
+        "minecraft:spell_effects": {
+          "remove_effects": ["slowness", "speed", "levitation", "slow_falling"],
+          "add_effects": [
+            {
+              "effect": "levitation",
+              "duration": 9999,
+              "amplifier": 15,
+              "visible": false
+            },
+            {
+              "effect": "speed",
+              "duration": 9999,
+              "amplifier": 20,
+              "visible": false
+            }
+          ]
+        }
+      },
+      "movement_2": {
+        "minecraft:movement.glide": {
+          "start_speed": 1.0,
+          "speed_when_turning": 1.0
+        },
+        "minecraft:spell_effects": {
+          "remove_effects": ["slowness", "speed", "levitation", "slow_falling"],
+          "add_effects": [
+            {
+              "effect": "levitation",
+              "duration": 9999,
+              "amplifier": 10,
+              "visible": false
+            },
+            {
+              "effect": "speed",
+              "duration": 9999,
+              "amplifier": 25,
+              "visible": false
+            }
+          ]
+        }
+      },
+      "movement_3": {
+        "minecraft:movement.glide": {
+          "start_speed": 1.0,
+          "speed_when_turning": 1.0
+        },
+        "minecraft:spell_effects": {
+          "remove_effects": ["slowness", "speed", "levitation", "slow_falling"],
+          "add_effects": [
+            {
+              "effect": "levitation",
+              "duration": 9999,
+              "amplifier": 5,
+              "visible": false
+            },
+            {
+              "effect": "speed",
+              "duration": 9999,
+              "amplifier": 30,
+              "visible": false
+            }
+          ]
+        }
+      },
+      "movement_4": {
+        "minecraft:movement.glide": {
+          "start_speed": 1.0,
+          "speed_when_turning": 1.0
+        },
+        "minecraft:spell_effects": {
+          "remove_effects": ["slowness", "speed", "levitation", "slow_falling"],
+          "add_effects": [
+            {
+              "effect": "levitation",
+              "duration": 9999,
+              "amplifier": 0,
+              "visible": false
+            },
+            {
+              "effect": "speed",
+              "duration": 9999,
+              "amplifier": 35,
+              "visible": false
+            }
+          ]
+        }
+      },
+      "movement_5": {
+        "minecraft:movement.glide": {
+          "start_speed": 1.0,
+          "speed_when_turning": 1.0
+        },
+        "minecraft:spell_effects": {
+          "remove_effects": ["slowness", "speed", "levitation", "slow_falling"],
+          "add_effects": [
+            {
+              "effect": "slow_falling",
+              "duration": 9999,
+              "amplifier": 1,
+              "visible": false
+            },
+            {
+              "effect": "speed",
+              "duration": 9999,
+              "amplifier": 40,
+              "visible": false
+            }
+          ]
+        }
+      },
+      "movement_6": {
+        "minecraft:movement.glide": {
+          "start_speed": 1.0,
+          "speed_when_turning": 1.0
+        },
+        "minecraft:spell_effects": {
+          "remove_effects": ["slowness", "speed", "levitation", "slow_falling"],
+          "add_effects": [
+            {
+              "effect": "speed",
+              "duration": 9999,
+              "amplifier": 45,
+              "visible": false
+            }
+          ]
+        }
+      },
+      "movement_7": {
+        "minecraft:movement.basic": {},
+        "minecraft:movement": {
+          "value": 1,
+          "max": 1
+        },
+        "minecraft:spell_effects": {
+          "remove_effects": ["slowness", "speed", "levitation", "slow_falling"],
+          "add_effects": [
+            {
+              "effect": "slowness",
+              "duration": 99999,
+              "amplifier": 99,
+              "visible": false
+            }
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:health": {
+        "value": 200
+      },
+      "minecraft:collision_box": {
+        "width": 1,
+        "height": 2
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:input_ground_controlled": {},
+      "minecraft:can_power_jump": {},
+      "minecraft:horse.jump_strength": {
+        "value": 0.1
+      },
+      "minecraft:inventory": {
+        "inventory_size": 15,
+        "container_type": "container",
+        "can_be_siphoned_from": true
+      },
+      "minecraft:movement.basic": {
+        "max_turn": 45
+      },
+      "minecraft:jump.static": {
+        "jump_power": 0.1
+      },
+      "minecraft:nameable": {
+        "always_show": true
+      },
+      "minecraft:type_family": {
+        "family": ["plane"]
+      },
+      "minecraft:scale": {
+        "value": 1
+      },
+      "minecraft:variant": {
+        "value": 0
+      },
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "can_path_over_water": true
+      },
+      "minecraft:physics": {},
+      "minecraft:knockback_resistance": {
+        "value": 1
+      },
+      "minecraft:movement": {
+        "value": 0.2
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "sequence": [
+          {
+            "add": {
+              "component_groups": ["minecraft:startupex"]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

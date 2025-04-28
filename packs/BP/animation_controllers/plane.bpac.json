@@ -1,0 +1,365 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.plane.fly_v2_balloon": {
+      "states": {
+        "default": {
+          "transitions": [{ "control": "query.has_player_rider" }],
+          "on_entry": ["@s planeronnel:plane_movement_0"]
+        },
+        "control": {
+          "transitions": [
+            { "default": "!query.has_player_rider" },
+            { "up_fast": "query.head_x_rotation(0) <= -15" },
+            {
+              "up_normal": "query.head_x_rotation(0) > -15 && query.head_x_rotation(0) <= -6"
+            },
+            {
+              "up_slow": "query.head_x_rotation(0) > -6 && query.head_x_rotation(0) <= -1"
+            },
+            {
+              "hover": "query.head_x_rotation(0) > -1 && query.head_x_rotation(0) < 1"
+            },
+            {
+              "down_slow": "query.head_x_rotation(0) >= 1 && query.head_x_rotation(0) < 15"
+            },
+            { "down_fast": "query.head_x_rotation(0) >= 15" },
+            { "on_ground": "query.is_on_ground" }
+          ]
+        },
+        "up_fast": {
+          "transitions": [
+            { "default": "!query.has_player_rider" },
+            {
+              "up_normal": "query.head_x_rotation(0) > -15 && query.head_x_rotation(0) <= -6"
+            },
+            {
+              "up_slow": "query.head_x_rotation(0) > -6 && query.head_x_rotation(0) <= -1"
+            },
+            {
+              "hover": "query.head_x_rotation(0) > -1 && query.head_x_rotation(0) < 1"
+            },
+            {
+              "down_slow": "query.head_x_rotation(0) >= 1 && query.head_x_rotation(0) < 15"
+            },
+            { "down_fast": "query.head_x_rotation(0) >= 15" },
+            { "on_ground": "query.is_on_ground" }
+          ],
+          "on_entry": ["@s planeronnel:plane_movement_1"]
+        },
+        "up_normal": {
+          "transitions": [
+            { "default": "!query.has_player_rider" },
+            { "up_fast": "query.head_x_rotation(0) <= -15" },
+            {
+              "up_slow": "query.head_x_rotation(0) > -6 && query.head_x_rotation(0) <= -1"
+            },
+            {
+              "hover": "query.head_x_rotation(0) > -1 && query.head_x_rotation(0) < 1"
+            },
+            {
+              "down_slow": "query.head_x_rotation(0) >= 1 && query.head_x_rotation(0) < 15"
+            },
+            { "down_fast": "query.head_x_rotation(0) >= 15" },
+            { "on_ground": "query.is_on_ground" }
+          ],
+          "on_entry": ["@s planeronnel:plane_movement_2"]
+        },
+        "up_slow": {
+          "transitions": [
+            { "default": "!query.has_player_rider" },
+            { "up_fast": "query.head_x_rotation(0) <= -15" },
+            {
+              "up_normal": "query.head_x_rotation(0) > -15 && query.head_x_rotation(0) <= -6"
+            },
+            {
+              "hover": "query.head_x_rotation(0) > -1 && query.head_x_rotation(0) < 1"
+            },
+            {
+              "down_slow": "query.head_x_rotation(0) >= 1 && query.head_x_rotation(0) < 15"
+            },
+            { "down_fast": "query.head_x_rotation(0) >= 15" },
+            { "on_ground": "query.is_on_ground" }
+          ],
+          "on_entry": ["@s planeronnel:plane_movement_3"]
+        },
+        "hover": {
+          "transitions": [
+            { "default": "!query.has_player_rider" },
+            { "up_fast": "query.head_x_rotation(0) <= -15" },
+            {
+              "up_normal": "query.head_x_rotation(0) > -15 && query.head_x_rotation(0) <= -6"
+            },
+            {
+              "up_slow": "query.head_x_rotation(0) > -6 && query.head_x_rotation(0) <= -1"
+            },
+            {
+              "down_slow": "query.head_x_rotation(0) >= 1 && query.head_x_rotation(0) < 15"
+            },
+            { "down_fast": "query.head_x_rotation(0) >= 15" },
+            { "on_ground": "query.is_on_ground" }
+          ],
+          "on_entry": ["@s planeronnel:plane_movement_4"]
+        },
+        "down_slow": {
+          "transitions": [
+            { "default": "!query.has_player_rider" },
+            { "up_fast": "query.head_x_rotation(0) <= -15" },
+            {
+              "up_normal": "query.head_x_rotation(0) > -15 && query.head_x_rotation(0) <= -6"
+            },
+            {
+              "up_slow": "query.head_x_rotation(0) > -6 && query.head_x_rotation(0) <= -1"
+            },
+            {
+              "hover": "query.head_x_rotation(0) > -1 && query.head_x_rotation(0) < 1"
+            },
+            { "down_fast": "query.head_x_rotation(0) >= 15" },
+            { "on_ground": "query.is_on_ground" }
+          ],
+          "on_entry": ["@s planeronnel:plane_movement_5"]
+        },
+        "down_fast": {
+          "transitions": [
+            { "default": "!query.has_player_rider" },
+            { "up_fast": "query.head_x_rotation(0) <= -15" },
+            {
+              "up_normal": "query.head_x_rotation(0) > -15 && query.head_x_rotation(0) <= -6"
+            },
+            {
+              "up_slow": "query.head_x_rotation(0) > -6 && query.head_x_rotation(0) <= -1"
+            },
+            {
+              "hover": "query.head_x_rotation(0) > -1 && query.head_x_rotation(0) < 1"
+            },
+            {
+              "down_slow": "query.head_x_rotation(0) >= 1 && query.head_x_rotation(0) < 15"
+            },
+            { "on_ground": "query.is_on_ground" }
+          ],
+          "on_entry": ["@s planeronnel:plane_movement_6"]
+        },
+        "on_ground": {
+          "transitions": [
+            { "default": "!query.has_player_rider" },
+            { "up_fast": "query.head_x_rotation(0) <= -15" },
+            {
+              "up_normal": "query.head_x_rotation(0) > -15 && query.head_x_rotation(0) <= -6"
+            },
+            {
+              "up_slow": "query.head_x_rotation(0) > -6 && query.head_x_rotation(0) <= -1"
+            }
+          ],
+          "on_entry": ["@s planeronnel:plane_movement_7"]
+        }
+      }
+    },
+    "controller.animation.plane.fly_v2": {
+      "states": {
+        "default": {
+          "transitions": [{ "control": "query.has_rider" }],
+          "on_entry": ["@s planeronnel:plane_movement_0"]
+        },
+        "control": {
+          "transitions": [
+            { "default": "!query.has_rider" },
+            {
+              "up_fast": "query.head_x_rotation(0) <= -15 && query.ground_speed > 0"
+            },
+            {
+              "up_normal": "query.head_x_rotation(0) > -15 && query.head_x_rotation(0) <= -6 && query.ground_speed > 0"
+            },
+            {
+              "up_slow": "query.head_x_rotation(0) > -6 && query.head_x_rotation(0) <= -1 && query.ground_speed > 0"
+            },
+            {
+              "hover": "query.head_x_rotation(0) > -1 && query.head_x_rotation(0) < 1 && query.ground_speed > 0"
+            },
+            {
+              "down_slow": "(query.head_x_rotation(0) >= 1 && query.head_x_rotation(0) < 15) || query.ground_speed < 0.1"
+            },
+            { "down_fast": "query.head_x_rotation(0) >= 15" },
+            { "on_ground": "query.is_on_ground" }
+          ]
+        },
+        "up_fast": {
+          "transitions": [
+            { "default": "!query.has_rider" },
+            {
+              "up_normal": "query.head_x_rotation(0) > -15 && query.head_x_rotation(0) <= -6 && query.ground_speed > 0"
+            },
+            {
+              "up_slow": "query.head_x_rotation(0) > -6 && query.head_x_rotation(0) <= -1 && query.ground_speed > 0"
+            },
+            {
+              "hover": "query.head_x_rotation(0) > -1 && query.head_x_rotation(0) < 1 && query.ground_speed > 0"
+            },
+            {
+              "down_slow": "query.head_x_rotation(0) >= 1 && query.head_x_rotation(0) < 15 || query.ground_speed < 0.1"
+            },
+            { "down_fast": "query.head_x_rotation(0) >= 15" },
+            { "on_ground": "query.is_on_ground" }
+          ],
+          "on_entry": ["@s planeronnel:plane_movement_1"]
+        },
+        "up_normal": {
+          "transitions": [
+            { "default": "!query.has_rider" },
+            {
+              "up_fast": "query.head_x_rotation(0) <= -15 && query.ground_speed > 0"
+            },
+            {
+              "up_slow": "query.head_x_rotation(0) > -6 && query.head_x_rotation(0) <= -1 && query.ground_speed > 0"
+            },
+            {
+              "hover": "query.head_x_rotation(0) > -1 && query.head_x_rotation(0) < 1 && query.ground_speed > 0"
+            },
+            {
+              "down_slow": "query.head_x_rotation(0) >= 1 && query.head_x_rotation(0) < 15 || query.ground_speed < 0.1"
+            },
+            { "down_fast": "query.head_x_rotation(0) >= 15" },
+            { "on_ground": "query.is_on_ground" }
+          ],
+          "on_entry": ["@s planeronnel:plane_movement_2"]
+        },
+        "up_slow": {
+          "transitions": [
+            { "default": "!query.has_rider" },
+            {
+              "up_fast": "query.head_x_rotation(0) <= -15 && query.ground_speed > 0"
+            },
+            {
+              "up_normal": "query.head_x_rotation(0) > -15 && query.head_x_rotation(0) <= -6 && query.ground_speed > 0"
+            },
+            {
+              "hover": "query.head_x_rotation(0) > -1 && query.head_x_rotation(0) < 1 && query.ground_speed > 0"
+            },
+            {
+              "down_slow": "query.head_x_rotation(0) >= 1 && query.head_x_rotation(0) < 15 || query.ground_speed < 0.1"
+            },
+            { "down_fast": "query.head_x_rotation(0) >= 15" },
+            { "on_ground": "query.is_on_ground" }
+          ],
+          "on_entry": ["@s planeronnel:plane_movement_3"]
+        },
+        "hover": {
+          "transitions": [
+            { "default": "!query.has_rider" },
+            {
+              "up_fast": "query.head_x_rotation(0) <= -15 && query.ground_speed > 0"
+            },
+            {
+              "up_normal": "query.head_x_rotation(0) > -15 && query.head_x_rotation(0) <= -6 && query.ground_speed > 0"
+            },
+            {
+              "up_slow": "query.head_x_rotation(0) > -6 && query.head_x_rotation(0) <= -1 && query.ground_speed > 0"
+            },
+            {
+              "down_slow": "query.head_x_rotation(0) >= 1 && query.head_x_rotation(0) < 15 || query.ground_speed < 0.1"
+            },
+            { "down_fast": "query.head_x_rotation(0) >= 15" },
+            { "on_ground": "query.is_on_ground" }
+          ],
+          "on_entry": ["@s planeronnel:plane_movement_4"]
+        },
+        "down_slow": {
+          "transitions": [
+            { "default": "!query.has_rider" },
+            {
+              "up_fast": "query.head_x_rotation(0) <= -15 && query.ground_speed > 0"
+            },
+            {
+              "up_normal": "query.head_x_rotation(0) > -15 && query.head_x_rotation(0) <= -6 && query.ground_speed > 0"
+            },
+            {
+              "up_slow": "query.head_x_rotation(0) > -6 && query.head_x_rotation(0) <= -1 && query.ground_speed > 0"
+            },
+            {
+              "hover": "query.head_x_rotation(0) > -1 && query.head_x_rotation(0) < 1 && query.ground_speed > 0"
+            },
+            { "down_fast": "query.head_x_rotation(0) >= 15" },
+            { "on_ground": "query.is_on_ground" }
+          ],
+          "on_entry": ["@s planeronnel:plane_movement_5"]
+        },
+        "down_fast": {
+          "transitions": [
+            { "default": "!query.has_rider" },
+            {
+              "up_fast": "query.head_x_rotation(0) <= -15 && query.ground_speed > 0"
+            },
+            {
+              "up_normal": "query.head_x_rotation(0) > -15 && query.head_x_rotation(0) <= -6 && query.ground_speed > 0"
+            },
+            {
+              "up_slow": "query.head_x_rotation(0) > -6 && query.head_x_rotation(0) <= -1 && query.ground_speed > 0"
+            },
+            {
+              "hover": "query.head_x_rotation(0) > -1 && query.head_x_rotation(0) < 1 && query.ground_speed > 0"
+            },
+            {
+              "down_slow": "query.head_x_rotation(0) >= 1 && query.head_x_rotation(0) < 15"
+            },
+            { "on_ground": "query.is_on_ground" }
+          ],
+          "on_entry": ["@s planeronnel:plane_movement_6"]
+        },
+        "on_ground": {
+          "transitions": [
+            { "default": "!query.has_rider" },
+            {
+              "up_fast": "query.head_x_rotation(0) <= -15 && query.ground_speed > 0"
+            },
+            {
+              "up_normal": "query.head_x_rotation(0) > -15 && query.head_x_rotation(0) <= -6 && query.ground_speed > 0"
+            },
+            {
+              "up_slow": "query.head_x_rotation(0) > -6 && query.head_x_rotation(0) <= -1 && query.ground_speed > 0"
+            }
+          ],
+          "on_entry": ["@s planeronnel:plane_movement_7"]
+        }
+      }
+    },
+    "controller.animation.plane.fly": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "flying": "(1.0)"
+            }
+          ],
+          "on_entry": ["/function rmplaysmc_plane"]
+        },
+        "flying": {
+          "transitions": [
+            {
+              "default": "query.has_rider"
+            }
+          ],
+          "on_entry": ["/function rmplaysmc_plane"]
+        }
+      }
+    },
+    "controller.animation.plane.remove_effect": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "flying": "(1.0)"
+            }
+          ]
+        },
+        "flying": {
+          "transitions": [
+            {
+              "default": "!query.has_rider"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

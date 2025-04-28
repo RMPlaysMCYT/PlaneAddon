@@ -1,0 +1,28 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Plane Addon RES [7.0]",
+    "description": "This addon adds different kinds of planes by it's style, color and more",
+    "uuid": "08ef4677-eaab-4462-a3e6-c2c4679d72d5",
+    "version": [7, 0, 0],
+    "min_engine_version": [1, 18, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "db85221c-8387-489c-9ce6-e636a39bb906",
+      "version": [7, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "ed258697-d9a0-4309-a318-819bb633a6f3",
+      "version": [7, 0, 0]
+    }
+  ],
+  "metadata": {
+    "authors": ["Ronnel Mitra", "RMPlaysMC Studios"],
+    "product_type": "addon",
+    "license": "All Rights Reserved"
+  }
+}

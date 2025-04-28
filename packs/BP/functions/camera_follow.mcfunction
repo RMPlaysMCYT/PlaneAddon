@@ -1,0 +1,1 @@
+camera @p[r=1] set minecraft:free ease 1 in_out_circ pos ~ ~10 ~-7 rot 45 ~

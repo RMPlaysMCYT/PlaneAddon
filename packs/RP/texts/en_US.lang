@@ -1,0 +1,84 @@
+pack.name=Plane Addon v6
+pack.description=This Addon was created in April 2020 Now It Continues after over 1 Year of delay
+
+entity.planeronnel:plane.name=Plane
+entity.planeronnel:plane_blue.name=Plane
+entity.planeronnel:plane_green.name=Plane
+entity.planeronnel:plane_yellow.name=Plane
+entity.planeronnel:plane_pink.name=Plane
+entity.planeronnel:plane_black.name=Plane Black
+entity.planeronnel:plane_dark_blue.name=Plane Dark Blue
+entity.planeronnel:plane_white.name=Plane White
+entity.planeronnel:plane_brown.name=Plane Brown
+entity.planeronnel:plane_red_purple.name=Plane Red Purple
+
+entity.planeronnel:helicopter.name=Helicopter
+entity.planeronnel:helicopter_black.name=Helicopter Black
+entity.planeronnel:helicopter_blue.name=Helicopter Blue
+entity.planeronnel:helicopter_green.name=Helicopter Green
+entity.planeronnel:helicopter_white.name=Helicopter White
+
+entity.planeronnel:baron.name=Baron Red
+entity.planeronnel:baron_green.name=Baron Green
+entity.planeronnel:baron_blue.name=Baron Blue
+
+entity.planeronnel:sea_sparrow_black.name=Sea Sparrow Black
+entity.planeronnel:sea_sparrow_white.name=Sea Sparrow White
+entity.planeronnel:sea_sparrow_red.name=Sea Sparrow Red
+entity.planeronnel:sea_sparrow_green.name=Sea Sparrow Green
+entity.planeronnel:sea_sparrow_blue.name=Sea Sparrow Blue
+
+
+
+item.spawn_egg.entity.planeronnel:sea_sparrow_black.name=Sea Sparrow Black
+item.spawn_egg.entity.planeronnel:sea_sparrow_white.name=Sea Sparrow White
+item.spawn_egg.entity.planeronnel:sea_sparrow_red.name=Sea Sparrow Red
+item.spawn_egg.entity.planeronnel:sea_sparrow_green.name=Sea Sparrow Green
+item.spawn_egg.entity.planeronnel:sea_sparrow_blue.name=Sea Sparrow Blue
+
+item.spawn_egg.entity.planeronnel:plane.name=Plane[Red]
+item.spawn_egg.entity.planeronnel:plane_blue.name=Plane[Blue]
+item.spawn_egg.entity.planeronnel:plane_green.name=Plane[Green]
+item.spawn_egg.entity.planeronnel:plane_yellow.name=Plane[Yellow]
+item.spawn_egg.entity.planeronnel:plane_pink.name=Plane[Pink]
+item.spawn_egg.entity.planeronnel:plane_black.name=Plane [Black]
+item.spawn_egg.entity.planeronnel:plane_dark_blue.name=Plane [Dark Blue]
+item.spawn_egg.entity.planeronnel:plane_white.name=Plane [White]
+item.spawn_egg.entity.planeronnel:plane_brown.name=Plane [Brown]
+item.spawn_egg.entity.planeronnel:plane_red_purple.name=Plane [Red Purple]
+
+item.spawn_egg.entity.planeronnel:helicopter.name=Helicopter
+item.spawn_egg.entity.planeronnel:helicopter_black.name=Helicopter Black
+item.spawn_egg.entity.planeronnel:helicopter_blue.name=Helicopter Blue
+item.spawn_egg.entity.planeronnel:helicopter_green.name=Helicopter Green
+item.spawn_egg.entity.planeronnel:helicopter_white.name=Helicopter White
+
+item.spawn_egg.entity.planeronnel:baron.name=Baron Red
+item.spawn_egg.entity.planeronnel:baron_green.name=Baron Green
+item.spawn_egg.entity.planeronnel:baron_blue.name=Baron Blue
+
+action.hint.exit.planeronnel:plane=  to fly and  to go down
+
+item.spawn_egg.entity.planeronnel:huey_black.name=Huey Black
+item.spawn_egg.entity.planeronnel:huey_white.name=Huey White
+
+item.spawn_egg.entity.planeronnel:rotosco_black.name=Rotoway Scorpion Black
+item.spawn_egg.entity.planeronnel:rotosco_blue.name=Rotoway Scorpion Blue
+item.spawn_egg.entity.planeronnel:rotosco_green.name=Rotoway Scorpion Green
+item.spawn_egg.entity.planeronnel:rotosco_red.name=Rotoway Scorpion Red
+item.spawn_egg.entity.planeronnel:rotosco_white.name=Rotoway Scorpion White
+item.spawn_egg.entity.planeronnel:rotosco_yellow.name=Rotoway Scorpion Yellow
+
+entity.planeronnel:huey_black.name=Huey Black
+entity.planeronnel:huey_white.name=Huey White
+
+entity.planeronnel:rotosco_black.name=Rotoway Scorpion Black
+entity.planeronnel:rotosco_blue.name=Rotoway Scorpion Blue
+entity.planeronnel:rotosco_green.name=Rotoway Scorpion Green
+entity.planeronnel:rotosco_red.name=Rotoway Scorpion Red
+entity.planeronnel:rotosco_white.name=Rotoway Scorpion White
+entity.planeronnel:rotosco_yellow.name=Rotoway Scorpion Yellow
+
+entity.planeronnel:hydra_plane.name=§9Hydra
+
+item.spawn_egg.entity.planeronnel:hydra_plane.name=§9Spawn Hydra

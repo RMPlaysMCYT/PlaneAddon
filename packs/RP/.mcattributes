@@ -1,0 +1,2 @@
+diagnostic.disable.minecraft.language.comment.invalid=true
+diagnostic.disable.resourcepack.texture.missing=true

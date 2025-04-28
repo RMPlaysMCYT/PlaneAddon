@@ -1,0 +1,42 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.baron.loop": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"propeller": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 0, "360*4"]
+					}
+				}
+			}
+		},
+		"animation.baron.take_off": {
+			"loop": true,
+			"bones": {
+				"lower0": {
+					"rotation": [62.5, 0, 0],
+					"position": [0, 1, 0]
+				},
+				"lowerr": {
+					"rotation": [90, 0, 0],
+					"scale": [0, 1, 0]
+				}
+			}
+		},
+		"animation.baron.land": {
+			"loop": true,
+			"bones": {
+				"lowerr": {
+					"rotation": [-2.5, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"lower0": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		}
+	}
+}

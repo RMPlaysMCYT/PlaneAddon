@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "planeronnel:sea_sparrow_black",
+			"materials": {
+				"default": "witch"
+			},
+			"textures": {
+				"default": "textures/entity/sea_sparrow_rmplaysmcyt_black"
+			},
+			"geometry": {
+				"default": "geometry.sea_sparrow_rmplaysmcyt"
+			},
+			"render_controllers": [
+				"controller.render.single_plane"
+			],
+			"spawn_egg": {
+				"texture": "sea_sparrow",
+				"texture_index": 0
+			},
+			"animations": {
+			  "loop": "animation.sparrow.loop",
+			  "look_at_target": "animation.sparrow.look_at_target"
+			},
+			"scripts": {
+			  "animate": [
+			    "look_at_target",
+			    {
+			      "loop": "query.has_rider"
+          		}
+			  ]
+			}
+		}
+	}
+}

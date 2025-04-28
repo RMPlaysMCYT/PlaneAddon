@@ -1,0 +1,28 @@
+{
+	"format_version": "1.19.0",
+	"animation_controllers": {
+		"controller.animation.plane_hydra.flying_ac": {
+			"states": {
+				"default": {
+					"animations": ["landing"],
+					"transitions": [
+						{"glide": "!query.is_on_ground"}
+					]
+				},
+				"glide": {
+					"animations": ["gliding"],
+					"transitions": [
+						{"default": "query.is_on_ground"}
+					]
+				}
+			}
+		},
+		"controller.animation.plane_hydra.turn_ac": {
+			"states": {
+				"default": {
+					"animations": ["turn"]
+				}
+			}
+		}
+	}
+}

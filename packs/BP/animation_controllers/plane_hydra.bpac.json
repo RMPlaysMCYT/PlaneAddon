@@ -1,0 +1,76 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.hydra_plane.fly":{
+            "states": {
+                "default":{
+                    "transitions": [
+                        {
+                            "fly": "(1.0)"
+                        }
+                    ],
+                    "on_entry": [
+                        "/camera @p[r=1] clear"
+                    ]
+                },
+                "fly":{
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ],
+                    "on_entry": [
+                        "/function rmplaysmc_plane_hydra"
+                    ]
+                }
+            }
+        },
+        "controller.animation.hydra_plane.flying":{
+            "states":{
+                "default":{
+                    "transitions":[
+                        {
+                            "jumping_1":"!q.is_on_ground"
+                        }
+                    ]
+                },
+                "jumping_1":{
+                    "transitions":[
+                        {
+                            "transition_to_default":"q.is_on_ground"
+                        },
+                        {
+                            "jumping_2":"true"
+                        }
+                    ],
+                    "on_entry":[
+                        "/effect @s speed 15 10 true"
+                    ]
+                },
+                "jumping_2":{
+                    "transitions":[
+                        {
+                            "transition_to_default":"q.is_on_ground"
+                        },
+                        {
+                            "jumping_1":"true"
+                        }
+                    ],
+                    "on_entry":[
+                        "/effect @s speed 15 10 true"
+                    ]
+                },
+                "transition_to_default":{
+                    "transitions":[
+                        {
+                            "transition_to_default":"true"
+                        }
+                    ],
+                    "on_entry":[
+                        "/effect @s clear"
+                    ]
+                }
+            }
+        }        
+    }
+}

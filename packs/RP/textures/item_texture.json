@@ -1,0 +1,66 @@
+{
+	"resource_pack_name": "Plane Addon [7.0]",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"plane": {
+			"textures": [
+				"textures/items/plane",
+				"textures/items/plane_blue",
+				"textures/items/plane_green",
+				"textures/items/plane_pink",
+				"textures/items/plane_yellow",
+				"textures/items/plane_black",
+				"textures/items/plane_brown",
+				"textures/items/plane_white",
+				"textures/items/plane_red_purple",
+				"textures/items/plane_dark_blue"
+			]
+		},
+		"helicopter": {
+			"textures": [
+				"textures/items/helicopter",
+				"textures/items/helicopter_black",
+				"textures/items/helicopter_blue",
+				"textures/items/helicopter_green",
+				"textures/items/helicopter_white"
+			]
+		},
+		"baron": {
+			"textures": [
+				"textures/items/baron_red",
+				"textures/items/baron_green",
+				"textures/items/baron_blue"
+			]
+		},
+		"sea_sparrow": {
+			"textures": [
+				"textures/items/sea_sparrow_rmplaysmcyt_black",
+				"textures/items/sea_sparrow_rmplaysmcyt_white",
+				"textures/items/sea_sparrow_rmplaysmcyt_red",
+				"textures/items/sea_sparrow_rmplaysmcyt_green",
+				"textures/items/sea_sparrow_rmplaysmcyt_blue"
+			]
+		},
+		"huey": {
+			"textures": [
+				"textures/items/huey_black",
+				"textures/items/huey_white"
+			]
+		},
+		"rotoscorpio": {
+			"textures": [
+				"textures/items/rotoscorpio_black",
+				"textures/items/rotoscorpio_blue",
+				"textures/items/rotoscorpio_green",
+				"textures/items/rotoscorpio_red",
+				"textures/items/rotoscorpio_white",
+				"textures/items/rotoscorpio_yellow"
+			]
+		},
+		"hydra_plane":{
+			"textures":[
+				"textures/items/plane_hydra"
+			]
+		}
+	}
+}

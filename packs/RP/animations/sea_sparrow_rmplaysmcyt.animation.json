@@ -1,0 +1,86 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.sparrow.look_at_target": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["query.target_x_rotation - this", 0, 0]
+				}
+			}
+		},
+		"animation.sparrow.loop": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"loop0A": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, "360*8", 0]
+					}
+				},
+				"loop0B": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, "-360*2", 0]
+					}
+				},
+				"loop1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": ["360*8", 0, 0]
+					}
+				}
+			}
+		},
+		"animation.sparrow.open": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"bones": {
+				"cage": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [-55, 0, 0]
+					}
+				},
+				"loop0A": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 35, 0]
+					}
+				},
+				"loop0B": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 40, 0]
+					}
+				}
+			}
+		},
+		"animation.sparrow.close": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"anim_time_update": "query.mark_variant == 1 || query.has_rider",
+			"bones": {
+				"cage": {
+					"rotation": {
+						"0.0": [-55, 0, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"loop0A": {
+					"rotation": {
+						"0.0": [0, 35, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"loop0B": {
+					"rotation": {
+						"0.0": [0, 40, 0],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

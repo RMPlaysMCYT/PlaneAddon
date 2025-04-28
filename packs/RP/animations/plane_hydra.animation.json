@@ -1,0 +1,141 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.plane_hydra.gliding": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"bones": {
+				"land_skid": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [90, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 0, -3]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.5": [1, 1, 1],
+						"1.0": [0, 0, 0.9]
+					}
+				},
+				"wheel0": {
+					"rotation": [0, 0, 0]
+				},
+				"land_skid2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [90, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 0, -3]
+					},
+					"scale": {
+						"0.5": [1, 1, 1],
+						"1.0": [0, 0, 0.9]
+					}
+				},
+				"stand_skid0": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 0, -90]
+					}
+				},
+				"land_skid3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, 90],
+						"1.0": [0, 0, 180]
+					}
+				},
+				"stand_skid1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 0, 90]
+					}
+				},
+				"land_skid4": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, -90],
+						"1.0": [0, 0, -177.5]
+					}
+				}
+			}
+		},
+		"animation.plane_hydra.landing": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"bones": {
+				"land_skid": {
+					"rotation": {
+						"0.0": [90, 0, 0],
+						"1.0": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, -3],
+						"1.0": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [0, 0, 0.9],
+						"0.5": [1, 1, 1],
+						"1.0": [1, 1, 1]
+					}
+				},
+				"wheel0": {
+					"rotation": [0, 0, 0]
+				},
+				"land_skid2": {
+					"rotation": {
+						"0.0": [90, 0, 0],
+						"1.0": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, -3],
+						"1.0": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [0, 0, 0.9],
+						"0.5": [1, 1, 1]
+					}
+				},
+				"stand_skid0": {
+					"rotation": {
+						"0.0": [0, 0, -90],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"land_skid3": {
+					"rotation": {
+						"0.0": [0, 0, 180],
+						"0.5": [0, 0, 90],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"stand_skid1": {
+					"rotation": {
+						"0.0": [0, 0, 90],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"land_skid4": {
+					"rotation": {
+						"0.0": [0, 0, -177.5],
+						"0.5": [0, 0, -90],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.plane_hydra.turn": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [0, 0, "math.max(-8,math.min(8,query.yaw_speed*-0.5))-query.modified_move_speed*0.5"]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "planeronnel:baron",
+			"materials": {
+				"default": "witch"
+			},
+			"textures": {
+				"default": "textures/entity/baron_red"
+			},
+			"geometry": {
+				"default": "geometry.baron_rmplaysmcyt"
+			},
+			"render_controllers": [
+				"controller.render.single_plane"
+			],
+			"spawn_egg": {
+				"texture": "baron",
+				"texture_index": 0
+			},
+			"animations": {
+				"loop": "animation.baron.loop",
+				"take_off": "animation.baron.take_off",
+				"land": "animation.baron.land"
+			},
+			"animation_controllers": [
+				{
+					"loop": "controller.animation.baron.loop"
+				},
+				{
+					"move": "controller.animation.baron.move"
+				}
+			]
+		}
+	}
+}

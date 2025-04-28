@@ -1,0 +1,113 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "planeronnel:rotosco_yellow",
+			"is_summonable": true,
+			"is_spawnable": true,
+			"is_experimental": false,
+			"scripts": {
+				"animate": [
+					{
+						"fly": "(1.0)"
+					}
+				]
+			},
+			"animations": {
+				"fly": "controller.animation.rotoscorpio.fly"
+			}
+		},
+		"component_groups": {
+			"minecraft:startupex": {
+				"minecraft:rideable": {
+					"seat_count": 1,
+					"family_types": [
+						"player"
+					],
+					"seats": [
+						{
+							"position": [0, 0.45, -0.3]
+						}
+					],
+					"interact_text": "Hop in",
+					"rider_can_interact": true,
+					"pull_in_entities": false
+				}
+			}
+		},
+		"components": {
+			"minecraft:health": {
+				"value": 200
+			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 2
+			},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:input_ground_controlled": {},
+			"minecraft:can_power_jump": {},
+			"minecraft:horse.jump_strength": {
+				"value": 0.1
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "fall",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:inventory": {
+				"inventory_size": 15,
+				"container_type": "container",
+				"can_be_siphoned_from": true
+			},
+			"minecraft:movement.basic": {
+				"max_turn": 45
+			},
+			"minecraft:jump.static": {
+				"jump_power": 0.1
+			},
+			"minecraft:nameable": {
+				"always_show": true
+			},
+			"minecraft:type_family": {
+				"family": [
+					"plane"
+				]
+			},
+			"minecraft:scale": {
+				"value": 0.89
+			},
+			"minecraft:variant": {
+				"value": 0
+			},
+			"minecraft:navigation.walk": {
+				"is_amphibious": true,
+				"can_path_over_water": true
+			},
+			"minecraft:physics": {},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:movement": {
+				"value": 0.2
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"minecraft:startupex"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}
