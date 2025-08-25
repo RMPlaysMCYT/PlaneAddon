@@ -76,9 +76,6 @@
 					}
 				]
 			},
-			"minecraft:fall_damage": {
-				"value": 0
-			},
 			"minecraft:type_family": {
 				"family": [
 					"plane"
