@@ -1,4 +1,3 @@
-#bridge-file-version: #4
 ##RED
 execute @p[rx=-35,rxm=-90] ~ ~ ~ execute @e[r=2,type=planeronnel:huey_black] ~ ~ ~ effect @s levitation 1 9 true
 execute @p[rx=5,rxm=-10] ~ ~ ~ execute @e[r=2,type=planeronnel:huey_black] ~ ~ ~ effect @s levitation 1 2 true
