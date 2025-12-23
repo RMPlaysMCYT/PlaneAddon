@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.plane_ronnel_apache.loop": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"propeller0": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, "360*4", 0]
+					}
+				},
+				"propeller1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": ["-360*4", 0, 0]
+					}
+				}
+			}
+		}
+	}
+}
