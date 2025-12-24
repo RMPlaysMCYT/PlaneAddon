@@ -24,17 +24,19 @@
 		"component_groups": {
 			"minecraft:startupex": {
 				"minecraft:rideable": {
-					"seat_count": 4,
+                    "crouching_skip_interact": true,
+					"seat_count": 2,
 					"family_types": [
 						"player"
 					],
 					"seats": [
 						{
-							"position": [
-								0,
-								0.5,
-								0
-							]
+							"position": [0, 1.6, -0.1],
+                            "camera_relax_distance_smoothing": 0.2,
+                            "third_person_camera_radius": 6
+						},
+						{
+							"position": [0, 1.6, -0.1]
 						}
 					],
 					"interact_text": "Hop in",
