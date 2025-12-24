@@ -18,6 +18,42 @@
 					}
 				}
 			}
+		},
+		"animation.plane_ronnel_apache.start_loop": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 5,
+			"bones": {
+				"propeller0": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"5.0": [0, "360*4", 0]
+					}
+				},
+				"propeller1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"5.0": ["-360*4", 0, 0]
+					}
+				}
+			}
+		},
+		"animation.plane_ronnel_apache.start_loop2": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 5,
+			"bones": {
+				"propeller0": {
+					"rotation": {
+						"0.0": [0, "-360*4", 0],
+						"5.0": [0, 0, 0]
+					}
+				},
+				"propeller1": {
+					"rotation": {
+						"0.0": ["-360*4", 0, 0],
+						"5.0": [0, 0, 0]
+					}
+				}
+			}
 		}
 	}
 }
