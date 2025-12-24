@@ -1,0 +1,46 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.apache.fly": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"flying": "(1.0)"
+						}
+					]
+				},
+				"flying": {
+					"transitions": [
+						{
+							"default": "query.has_rider"
+						}
+					],
+					"on_entry": [
+						"/function rmplasymc_apache"
+					]
+				}
+			}
+		},
+		"controller.animation.apache.remove_effect": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"flying": "(1.0)"
+						}
+					]
+				},
+				"flying": {
+					"transitions": [
+						{
+							"default": "!query.has_rider"
+						}
+					]
+				}
+			}
+		}
+	}
+}

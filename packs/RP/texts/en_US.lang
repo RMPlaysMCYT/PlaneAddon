@@ -82,3 +82,6 @@ entity.planeronnel:rotosco_yellow.name=Rotoway Scorpion Yellow
 entity.planeronnel:hydra_plane.name=§9Hydra
 
 item.spawn_egg.entity.planeronnel:hydra_plane.name=§9Spawn Hydra
+
+entity.planeronnel:apache.name=Apache
+item.spawn_egg.entity.planeronnel:apache.name=Spawn Apache

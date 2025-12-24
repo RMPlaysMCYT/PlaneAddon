@@ -17,8 +17,8 @@
 				]
 			},
 			"animations": {
-				"fly": "controller.animation.baron.fly",
-				"remove_effect": "controller.animation.baron.remove_effect"
+				"fly": "controller.animation.apache.fly",
+				"remove_effect": "controller.animation.apache.remove_effect"
 			}
 		},
 		"component_groups": {
@@ -36,7 +36,7 @@
                             "third_person_camera_radius": 6
 						},
 						{
-							"position": [0, 1.6, -0.1]
+							"position": [0, 2.1, -1.4]
 						}
 					],
 					"interact_text": "Hop in",

@@ -10,7 +10,7 @@
 				"default": "textures/entity/plane_ronnel_apache"
 			},
 			"geometry": {
-				"default": "geometry.baron_rmplaysmcyt"
+				"default": "geometry.plane_ronnel_apache"
 			},
 			"render_controllers": [
 				"controller.render.single_plane"
@@ -21,16 +21,13 @@
 			},
 			"animation_controllers": [
 				{
-					"loop": "controller.animation.baron.loop"
-				},
-				{
-					"move": "controller.animation.baron.move"
+					"loop": "controller.animation.plane_ronnel_apache.loop"
 				}
 			],
 			"animations": {
-				"loop": "animation.baron.loop",
-				"take_off": "animation.baron.take_off",
-				"land": "animation.baron.land"
+				"loop": "animation.plane_ronnel_apache.loop",
+				"start_loop": "animation.plane_ronnel_apache.start_loop",
+				"start_loop2": "animation.plane_ronnel_apache.start_loop2"
 			}
 		}
 	}
