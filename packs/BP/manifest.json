@@ -3,29 +3,29 @@
   "header": {
     "name": "Plane Addon BEH [7.0]",
     "description": "This addon adds different kinds of planes by it's style, color and more",
-    "uuid": "ed258697-d9a0-4309-a318-819bb633a6f3",
-    "version": [7, 0, 0],
+    "uuid": "0e45d232-9cef-4919-a865-3a6db76bbba3",
+    "version": [8, 0, 0],
     "min_engine_version": [1, 18, 0]
   },
   "modules": [
     {
       "type": "data",
       "uuid": "beaaa6c5-d6fe-4973-bac2-6e4d528624fc",
-      "version": [7, 0, 0]
+      "version": [8, 0, 0]
     },
     {
       "description": "scripts can be found here",
       "entry": "scripts/PlaneRonnelAddon/main.js",
       "uuid": "08ef4677-eaab-4462-a3e6-c2c4679d72d5",
-      "version": [7, 0, 0],
+      "version": [8, 0, 0],
       "language": "javascript",
       "type": "script"
     }
   ],
   "dependencies": [
     {
-      "version": [7, 0, 0],
-      "uuid": "08ef4677-eaab-4462-a3e6-c2c4679d72d5"
+      "version": [8, 0, 0],
+      "uuid": "4250bb4d-5ff4-45b5-be6c-b5d7112e547b"
     },
     {
       "module_name": "@minecraft/server",
@@ -36,6 +36,6 @@
     "authors": ["Ronnel Mitra", "RMPlaysMC Studios"],
     "product_type": "addon",
     "url": "https://github.com/RMPlaysMCYT/PlaneAddon",
-    "license": "MIT"
+    "license": "MIT LICENSE"
   }
 }
