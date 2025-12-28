@@ -1,0 +1,40 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "description": {
+            "identifier": "plane_ronnel:helicopter_blue_recipe"
+        },
+        "pattern": [
+            "A L",
+            "BHS",
+            "FLF"
+        ],
+        "key": {
+            "A":{
+                "item": "minecraft:oak_slab"
+            },
+            "B": {
+                "item": "minecraft:iron_ingot"
+            },
+            "S": {
+                "item": "minecraft:redstone"
+            },
+            "L": {
+                "item": "minecraft:spruce_slab"
+            },
+            "F": {
+                "item": "minecraft:stone_pressure_plate"
+            },
+            "H": {
+                "item": "minecraft:blue_dye"
+            }
+        },
+        "result":{
+            "item": "planeronnel:helicopter_blue_spawn_egg",
+            "count": 1
+        }
+    }
+}
