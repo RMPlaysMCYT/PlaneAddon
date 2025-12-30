@@ -1,7 +1,7 @@
 {
-	"format_version": "1.2.0",
 	"$schema": "https://raw.githubusercontent.com/Bedrock-OSS/regolith-schemas/main/config/v1.2.json",
 	"author": "Ronnel Mitra / RMPlaysMC YT",
+	"format_version": "1.2.0",
 	"name": "Plane Addon V8",
 	"packs": {
 		"behaviorPack": "./packs/BP",
@@ -9,14 +9,23 @@
 	},
 	"regolith": {
 		"dataPath": "./packs/data",
-		"filterDefinitions": {},
+		"filterDefinitions": {
+			"mcaddon": {
+				"url": "github.com/lightyisreal/regolith-filters",
+				"version": "ce8cc237070ccfab7e884e5de60e5ced0f9049b1"
+			}
+		},
 		"profiles": {
 			"default": {
 				"export": {
 					"readOnly": false,
 					"target": "development"
 				},
-				"filters": []
+				"filters": [
+					{
+						"filter": "mcaddon"
+					}
+				]
 			}
 		}
 	}
