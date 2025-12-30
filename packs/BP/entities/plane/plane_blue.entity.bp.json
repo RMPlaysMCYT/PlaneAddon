@@ -239,9 +239,6 @@
       "minecraft:scale": {
         "value": 1
       },
-      "minecraft:variant": {
-        "value": 0
-      },
       "minecraft:navigation.walk": {
         "is_amphibious": true,
         "can_path_over_water": true
