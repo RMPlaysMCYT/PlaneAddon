@@ -21,7 +21,6 @@ system.runInterval(() => {
         const ridingEntity = ride?.entityRidingOn;
         if (ridingEntity && PlaneListsEntity[ridingEntity.typeId]) {
             player.runCommandAsync(`camera @s set minecraft:free ease 1 spring pos ${PlaneListsEntity[ridingEntity.typeId].pos} rot ${PlaneListsEntity[ridingEntity.typeId].rot}`);
-            /*setActionBar(player);*/
         } else {
             CameraReset(player);
         }
