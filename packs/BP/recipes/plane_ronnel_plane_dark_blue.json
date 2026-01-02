@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "description": {
+            "identifier": "plane_ronnel:plane_dark_blue_recipe"
+        },
+        "pattern": [
+            "LX"
+        ],
+        "key": {
+            "L":{
+                "item": "planeronnel:plane_blue_spawn_egg"
+            },
+            "X": {
+                "item": "minecraft:black_dye"
+            }
+        },
+        "result":{
+            "item": "planeronnel:plane_dark_blue_spawn_egg",
+            "count": 1
+        }
+    }
+}
