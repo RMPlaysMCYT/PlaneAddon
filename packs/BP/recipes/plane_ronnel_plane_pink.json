@@ -5,7 +5,7 @@
             "crafting_table"
         ],
         "description": {
-            "identifier": "plane_ronnel:plane_brown_recipe"
+            "identifier": "plane_ronnel:plane_pink_recipe"
         },
         "pattern": [
             "A L",
@@ -33,7 +33,7 @@
             }
         },
         "result":{
-            "item": "planeronnel:plane_brown_spawn_egg",
+            "item": "planeronnel:plane_pink_spawn_egg",
             "count": 1
         }
     }
