@@ -37,6 +37,18 @@
 			}
 		},
 		"components": {
+			"minecraft:buoyant": {
+				"base_buoyancy": 0,
+				"apply_gravity": true,
+				"buoyancy": 1,
+				"big_wave_probability": 0.03,
+				"big_wave_speed": 10,
+				"drag_down_on_buoyancy_removed": 0,
+				"liquid_blocks": [
+					"minecraft:water"
+				],
+				"simulate_waves": true
+			},
 			"minecraft:health": {
 				"value": 200
 			},
