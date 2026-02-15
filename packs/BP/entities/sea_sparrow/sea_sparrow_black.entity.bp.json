@@ -26,7 +26,7 @@
 					],
 					"seats": [
 						{
-							"position": [0, 0.8, 0.5]
+							"position": [0, 1.5, 0.5]
 						}
 					],
 					"interact_text": "Hop in",
@@ -37,17 +37,19 @@
 			}
 		},
 		"components": {
+			"minecraft:flying_speed": {
+				"value": 0.02
+			},
 			"minecraft:buoyant": {
-				"base_buoyancy": 0,
+				"base_buoyancy": 1,
 				"apply_gravity": true,
-				"buoyancy": 1,
+				"simulate_waves": true,
 				"big_wave_probability": 0.03,
 				"big_wave_speed": 10,
-				"drag_down_on_buoyancy_removed": 0,
 				"liquid_blocks": [
-					"minecraft:water"
-				],
-				"simulate_waves": true
+					"minecraft:water",
+					"minecraft:flowing_water"
+				]
 			},
 			"minecraft:health": {
 				"value": 200
@@ -98,7 +100,7 @@
 				"value": 1
 			},
 			"minecraft:movement": {
-				"value": 0.2
+				"value": 0.001
 			}
 		},
 		"events": {
