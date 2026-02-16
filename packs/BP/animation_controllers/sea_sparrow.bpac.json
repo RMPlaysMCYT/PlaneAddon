@@ -11,7 +11,8 @@
 						}
 					],
 					"on_entry": [
-						"/function seasparrow_fly"
+						"/function seasparrow_fly",
+						"/function sparrow_fly"
 					]
 				},
 				"flying": {
@@ -21,7 +22,8 @@
 						}
 					],
 					"on_entry": [
-						"/function seasparrow_fly"
+						"/function seasparrow_fly",
+						"/function sparrow_fly"
 					]
 				}
 			}
