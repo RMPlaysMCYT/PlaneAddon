@@ -85,3 +85,15 @@ item.spawn_egg.entity.planeronnel:hydra_plane.name=§9Spawn Hydra
 
 entity.planeronnel:apache.name=Apache
 item.spawn_egg.entity.planeronnel:apache.name=Spawn Apache
+
+item.spawn_egg.entity.planeronnel:sparrow_black.name=Sparrow Black Spawn Egg
+item.spawn_egg.entity.planeronnel:sparrow_blue.name=Sparrow Blue Spawn Egg
+item.spawn_egg.entity.planeronnel:sparrow_green.name=Sparrow Green Spawn Egg
+item.spawn_egg.entity.planeronnel:sparrow_red.name=Sparrow Red Spawn Egg
+item.spawn_egg.entity.planeronnel:sparrow_white.name=Sparrow White Spawn Egg
+
+entity.planeronnel:sparrow_black.name=Sparrow Black
+entity.planeronnel:sparrow_blue.name=Sparrow Blue
+entity.planeronnel:sparrow_green.name=Sparrow Green
+entity.planeronnel:sparrow_red.name=Sparrow Red
+entity.planeronnel:sparrow_white.name=Sparrow White
