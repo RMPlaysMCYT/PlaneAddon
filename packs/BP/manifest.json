@@ -1,30 +1,30 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Plane Addon BEH [8.0]",
+    "name": "Plane Addon BEH [9.0]",
     "description": "This addon adds different kinds of planes by it's style, color and more",
     "uuid": "0e45d232-9cef-4919-a865-3a6db76bbba3",
-    "version": [8, 0, 0],
+    "version": [9, 0, 0],
     "min_engine_version": [1, 18, 0]
   },
   "modules": [
     {
       "type": "data",
       "uuid": "beaaa6c5-d6fe-4973-bac2-6e4d528624fc",
-      "version": [8, 0, 0]
+      "version": [9, 0, 0]
     },
     {
       "description": "scripts can be found here",
       "entry": "scripts/PlaneRonnelAddon/main.js",
       "uuid": "08ef4677-eaab-4462-a3e6-c2c4679d72d5",
-      "version": [8, 0, 0],
+      "version": [9, 0, 0],
       "language": "javascript",
       "type": "script"
     }
   ],
   "dependencies": [
     {
-      "version": [8, 0, 0],
+      "version": [9, 0, 0],
       "uuid": "4250bb4d-5ff4-45b5-be6c-b5d7112e547b"
     },
     {
