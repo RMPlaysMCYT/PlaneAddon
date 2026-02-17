@@ -97,3 +97,11 @@ entity.planeronnel:sparrow_blue.name=Sparrow Blue
 entity.planeronnel:sparrow_green.name=Sparrow Green
 entity.planeronnel:sparrow_red.name=Sparrow Red
 entity.planeronnel:sparrow_white.name=Sparrow White
+
+entity.maverick.name=Maverick
+entity.maverick_white.name=Maverick White
+entity.planeronnel:maverick_black.name=Maverick Black
+
+item.spawn_egg.entity.maverick.name=Maverick Spawn Egg
+item.spawn_egg.entity.maverick_white.name=Maverick White Spawn Egg
+item.spawn_egg.entity.planeronnel:maverick_black.name=Maverick Black Spawn Egg

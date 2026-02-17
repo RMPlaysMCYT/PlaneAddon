@@ -1,0 +1,34 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "planeronnel:maverick_white",
+			"materials": {
+				"default": "witch"
+			},
+			"textures": {
+				"default": "textures/entity/maverick_white"
+			},
+			"geometry": {
+				"default": "geometry.maverick_rmplaysmcyt"
+			},
+			"render_controllers": [
+				"controller.render.single_plane"
+			],
+			"spawn_egg": {
+				"texture": "helicopter",
+				"texture_index": 4
+			},
+			"scripts": {
+				"animate": [
+					{
+						"loop": "query.has_rider"
+					}
+				]
+			},
+			"animations": {
+				"loop": "animation.helicopter.looper"
+			}
+		}
+	}
+}
