@@ -1,7 +1,7 @@
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
-		"controller.animation.sea_sparrow.fly": {
+		"controller.animation.sparrow.fly": {
 			"initial_state": "default",
 			"states": {
 				"default": {
@@ -11,7 +11,7 @@
 						}
 					],
 					"on_entry": [
-						"/function seasparrow_fly"
+						"/function sparrow_fly"
 					]
 				},
 				"flying": {
@@ -21,7 +21,7 @@
 						}
 					],
 					"on_entry": [
-						"/function seasparrow_fly"
+						"/function sparrow_fly"
 					]
 				}
 			}

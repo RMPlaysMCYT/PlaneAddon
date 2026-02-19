@@ -16,6 +16,8 @@ const PlaneListsEntity = {
     "planeronnel:plane": { pos: '~ ~5 ~-10', rot: '~-30 ~' }
 }
 
+
+
 system.runInterval(() => {
     for (const { player, ride } of world.getPlayers().map(p => ({ player: p, ride: p.getComponent("minecraft:riding") }))) {
         const ridingEntity = ride?.entityRidingOn;
