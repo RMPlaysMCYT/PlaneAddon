@@ -12,7 +12,7 @@
 				]
 			},
 			"animations": {
-				"fly": "controller.animation.sea_sparrow.fly"
+				"fly": "controller.animation.sparrow.fly"
 			}
 		},
 		"component_groups": {
