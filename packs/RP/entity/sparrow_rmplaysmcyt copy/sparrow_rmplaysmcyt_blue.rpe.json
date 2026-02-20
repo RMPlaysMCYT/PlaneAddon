@@ -16,7 +16,7 @@
 				"controller.render.plane_blue"
 			],
 			"spawn_egg": {
-				"texture": "sea_sparrow",
+				"texture": "sparrow",
 				"texture_index": 4
 			},
 			"animations": {

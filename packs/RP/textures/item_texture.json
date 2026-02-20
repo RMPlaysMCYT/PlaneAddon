@@ -41,6 +41,15 @@
 				"textures/items/sea_sparrow_rmplaysmcyt_blue"
 			]
 		},
+		"sparrow": {
+			"textures": [
+				"textures/items/sparrow_rmplaysmcyt_black",
+				"textures/items/sparrow_rmplaysmcyt_white",
+				"textures/items/sparrow_rmplaysmcyt_red",
+				"textures/items/sparrow_rmplaysmcyt_green",
+				"textures/items/sparrow_rmplaysmcyt_blue"
+			]
+		},
 		"huey": {
 			"textures": [
 				"textures/items/huey_black",
