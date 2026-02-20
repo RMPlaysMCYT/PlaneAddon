@@ -16,8 +16,8 @@
 				"controller.render.single_plane"
 			],
 			"spawn_egg": {
-				"texture": "helicopter",
-				"texture_index": 4
+				"texture": "maverick",
+				"texture_index": 1
 			},
 			"scripts": {
 				"animate": [

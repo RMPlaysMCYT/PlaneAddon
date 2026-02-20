@@ -61,6 +61,13 @@
 			"textures":[
 				"textures/items/plane_hydra"
 			]
-		}
+		},
+		"maverick": {
+			"textures": [
+				"textures/items/maverick_black",
+				"textures/items/maverick_white",
+				"textures/items/maverick"
+			]
+		},
 	}
 }
