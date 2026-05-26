@@ -6,6 +6,18 @@ system.runInterval(() => {
         if(ridingEntity && ridingEntity.typeId === "planeronnel:plane") {
             player.runCommandAsync(`tag @s add plane_fuel`);
             player.runCommandAsync(`say The Player Ride on a Plane`);
-        }
+        };
+        if(ridingEntity && ridingEntity.typeId === "planeronnel:plane_black") {
+            player.runCommandAsync(`tag @s add plane_fuel`);
+            player.runCommandAsync(`say The Player Ride on a Plane`);
+        };
+        if(ridingEntity && ridingEntity.typeId === "planeronnel:plane_blue") {
+            player.runCommandAsync(`tag @s add plane_fuel`);
+            player.runCommandAsync(`say The Player Ride on a Plane`);
+        };
+        if(ridingEntity && ridingEntity.typeId === "planeronnel:plane_brown") {
+            player.runCommandAsync(`tag @s add plane_fuel`);
+            player.runCommandAsync(`say The Player Ride on a Plane`);
+        };
     }
 }, 1);
