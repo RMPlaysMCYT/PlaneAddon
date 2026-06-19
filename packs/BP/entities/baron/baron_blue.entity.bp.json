@@ -34,7 +34,9 @@
 								0,
 								0.5,
 								0
-							]
+							],
+							"camera_relax_distance_smoothing": 0.5,
+							"third_person_camera_radius": 4
 						}
 					],
 					"interact_text": "Hop in",
