@@ -9,12 +9,12 @@
       "scripts": {
         "animate": [
           {
-            "fly": "(1.0)"
+            "fly_v2": "(1.0)"
           }
         ]
       },
       "animations": {
-        "fly": "controller.animation.plane.fly_v2"
+        "fly_v2": "controller.animation.plane.fly_v2"
       }
     },
     "component_groups": {
@@ -24,7 +24,8 @@
           "family_types": ["player"],
           "seats": [
             {
-              "position": [0, 0.6, 0.85]
+              "position": [0, 0.6, 0.85],
+              "third_person_camera_radius": 4
             },
             {
               "position": [0, 0.6, -0.1]
