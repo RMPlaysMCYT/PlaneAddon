@@ -26,7 +26,8 @@
           "family_types": ["player"],
           "seats": [
             {
-              "position": [0, 0.6, 0.85]
+              "position": [0, 0.6, 0.85],
+              "third_person_camera_radius": 4
             },
             {
               "position": [0, 0.6, -0.1]
