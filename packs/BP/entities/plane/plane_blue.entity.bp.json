@@ -1,5 +1,5 @@
 {
-  "format_version": "1.14.0",
+  "format_version": "1.16.0",
   "minecraft:entity": {
     "description": {
       "identifier": "planeronnel:plane_blue",
@@ -21,20 +21,38 @@
       "minecraft:startupex": {
         "minecraft:rideable": {
           "seat_count": 4,
-          "family_types": ["player"],
+          "family_types": [
+            "player"
+          ],
           "seats": [
             {
-              "position": [0, 0.6, 0.85],
+              "position": [
+                0,
+                0.6,
+                0.85
+              ],
               "third_person_camera_radius": 4
             },
             {
-              "position": [0, 0.6, -0.1]
+              "position": [
+                0,
+                0.6,
+                -0.1
+              ]
             },
             {
-              "position": [0, 0.6, -0.95]
+              "position": [
+                0,
+                0.6,
+                -0.95
+              ]
             },
             {
-              "position": [0, 0.6, -1.7]
+              "position": [
+                0,
+                0.6,
+                -1.7
+              ]
             }
           ],
           "interact_text": "Hop in",
@@ -46,7 +64,12 @@
       "movement_0": {
         "minecraft:movement.basic": {},
         "minecraft:spell_effects": {
-          "remove_effects": ["slowness", "speed", "levitation", "slow_falling"],
+          "remove_effects": [
+            "slowness",
+            "speed",
+            "levitation",
+            "slow_falling"
+          ],
           "add_effects": [
             {
               "effect": "slow_falling",
@@ -63,7 +86,12 @@
           "speed_when_turning": 1.0
         },
         "minecraft:spell_effects": {
-          "remove_effects": ["slowness", "speed", "levitation", "slow_falling"],
+          "remove_effects": [
+            "slowness",
+            "speed",
+            "levitation",
+            "slow_falling"
+          ],
           "add_effects": [
             {
               "effect": "levitation",
@@ -86,7 +114,12 @@
           "speed_when_turning": 1.0
         },
         "minecraft:spell_effects": {
-          "remove_effects": ["slowness", "speed", "levitation", "slow_falling"],
+          "remove_effects": [
+            "slowness",
+            "speed",
+            "levitation",
+            "slow_falling"
+          ],
           "add_effects": [
             {
               "effect": "levitation",
@@ -109,7 +142,12 @@
           "speed_when_turning": 1.0
         },
         "minecraft:spell_effects": {
-          "remove_effects": ["slowness", "speed", "levitation", "slow_falling"],
+          "remove_effects": [
+            "slowness",
+            "speed",
+            "levitation",
+            "slow_falling"
+          ],
           "add_effects": [
             {
               "effect": "levitation",
@@ -132,7 +170,12 @@
           "speed_when_turning": 1.0
         },
         "minecraft:spell_effects": {
-          "remove_effects": ["slowness", "speed", "levitation", "slow_falling"],
+          "remove_effects": [
+            "slowness",
+            "speed",
+            "levitation",
+            "slow_falling"
+          ],
           "add_effects": [
             {
               "effect": "levitation",
@@ -155,7 +198,12 @@
           "speed_when_turning": 1.0
         },
         "minecraft:spell_effects": {
-          "remove_effects": ["slowness", "speed", "levitation", "slow_falling"],
+          "remove_effects": [
+            "slowness",
+            "speed",
+            "levitation",
+            "slow_falling"
+          ],
           "add_effects": [
             {
               "effect": "slow_falling",
@@ -178,7 +226,12 @@
           "speed_when_turning": 1.0
         },
         "minecraft:spell_effects": {
-          "remove_effects": ["slowness", "speed", "levitation", "slow_falling"],
+          "remove_effects": [
+            "slowness",
+            "speed",
+            "levitation",
+            "slow_falling"
+          ],
           "add_effects": [
             {
               "effect": "speed",
@@ -192,7 +245,12 @@
       "movement_7": {
         "minecraft:movement.basic": {},
         "minecraft:spell_effects": {
-          "remove_effects": ["slowness", "speed", "levitation", "slow_falling"],
+          "remove_effects": [
+            "slowness",
+            "speed",
+            "levitation",
+            "slow_falling"
+          ],
           "add_effects": [
             {
               "effect": "slowness",
@@ -235,7 +293,9 @@
         "always_show": true
       },
       "minecraft:type_family": {
-        "family": ["plane"]
+        "family": [
+          "plane"
+        ]
       },
       "minecraft:scale": {
         "value": 1
@@ -257,13 +317,11 @@
     },
     "events": {
       "minecraft:entity_spawned": {
-        "sequence": [
-          {
-            "add": {
-              "component_groups": ["minecraft:startupex"]
-            }
-          }
-        ]
+        "add": {
+          "component_groups": [
+            "minecraft:startupex"
+          ]
+        }
       }
     }
   }
