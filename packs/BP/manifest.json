@@ -1,10 +1,10 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Plane Addon BEH [9.0]",
+    "name": "Plane Addon BEH [10.0]",
     "description": "This addon adds different kinds of planes by it's style, color and more",
     "uuid": "0e45d232-9cef-4919-a865-3a6db76bbba3",
-    "version": [9, 0, 0],
+    "version": [10, 0, 0],
     "min_engine_version": [1, 18, 0]
   },
   "modules": [
