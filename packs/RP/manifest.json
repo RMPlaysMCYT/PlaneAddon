@@ -11,13 +11,13 @@
     {
       "type": "resources",
       "uuid": "db85221c-8387-489c-9ce6-e636a39bb906",
-      "version": [9, 0, 0]
+      "version": [10, 0, 0]
     }
   ],
   "dependencies": [
     {
       "uuid": "0e45d232-9cef-4919-a865-3a6db76bbba3",
-      "version": [9, 0, 0]
+      "version": [10, 0, 0]
     }
   ],
   "metadata": {

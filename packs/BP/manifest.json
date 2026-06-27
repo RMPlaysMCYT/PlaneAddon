@@ -11,20 +11,20 @@
     {
       "type": "data",
       "uuid": "beaaa6c5-d6fe-4973-bac2-6e4d528624fc",
-      "version": [9, 0, 0]
+      "version": [10, 0, 0]
     },
     {
       "description": "scripts can be found here",
       "entry": "scripts/PlaneRonnelAddon/main.js",
       "uuid": "08ef4677-eaab-4462-a3e6-c2c4679d72d5",
-      "version": [9, 0, 0],
+      "version": [10, 0, 0],
       "language": "javascript",
       "type": "script"
     }
   ],
   "dependencies": [
     {
-      "version": [9, 0, 0],
+      "version": [10, 0, 0],
       "uuid": "4250bb4d-5ff4-45b5-be6c-b5d7112e547b"
     },
     {
